@@ -46,7 +46,7 @@
 	<div class="playlist">	
 		{#each playlist as song, index}
 			<button data-index={index} on:click={playSelectedSong} class="ripple">
-				<img data-index={index} width=180px height=180px src={song.img} alt="" />
+				<img data-index={index} width=100px height=100px src={song.img} alt="" />
 				<h3 data-index={index} class="title">{song.title}</h3>	
 			</button>
 		{/each}
@@ -56,13 +56,14 @@
 <style>
 	.player {
 		max-height: 100%;
+		width: 100vw;
 	}
 
 	.playlist {
-		display: flex;
-		gap: 2em;
-		flex-wrap: wrap;
-		min-width: 300px ;
+		display: grid;
+  		gap: 1rem;
+  		grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
+		min-width: 300px;
 		padding: 2em;
 		justify-content: center;
 	}
