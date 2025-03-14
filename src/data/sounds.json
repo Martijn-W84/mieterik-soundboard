@@ -33,5 +33,12 @@
         "img":"/images/Ruuktnm.webp",
         "audio": "/sounds/Het_is_half_acht.mp3",
         "descr": "Hoe laat is het Ruud?"
+    },
+    {
+        "title": "Ik veul meej zeek",
+        "category": "Ruuktn'm",
+        "img":"/images/Ruuktnm.webp",
+        "audio": "/sounds/Ik_veul_meej_zeek.mp3",
+        "descr": "Mien maag begint te dreije"
     }
 ]
