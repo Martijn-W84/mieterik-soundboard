@@ -1,0 +1,37 @@
+[
+    {
+        "title": "000 Daas gen beer",
+        "category": "Ger",
+        "img":"/images/000_Daas_gen_beer.webp",
+        "audio": "/sounds/000_Daas_gen_beer.mp3",
+        "descr": "Ger en Irene keuvelen over kaartjes tijdens corona"
+    },
+    {
+        "title": "Het is um het aeve",
+        "category": "Liedjeszengers",
+        "img":"/images/Um_het_aeve.webp",
+        "audio": "/sounds/Um_het_aeve.mp3",
+        "descr": "Luuk Haenen zingt um het aeve"
+    },
+    {
+        "title": "Paarse aanstaeker",
+        "category": "Zwans",
+        "img":"/images/Paarse_aanstaeker.webp",
+        "audio": "/sounds/Paarse_aanstaeker.mp3",
+        "descr": "Zwans"
+    },
+    {
+        "title": "Rundje um de zaal",
+        "category": "Liedjeszengers",
+        "img":"/images/De_zaal.webp",
+        "audio": "/sounds/Rundje_um_de_zaal.mp3",
+        "descr": "Hey hoo rundje um de zaal"
+    },
+    {
+        "title": "Het is half acht",
+        "category": "Ruuktn'm",
+        "img":"/images/Ruuktnm.webp",
+        "audio": "/sounds/Het_is_half_acht.mp3",
+        "descr": "Hoe laat is het Ruud?"
+    }
+]
