@@ -46,7 +46,7 @@
 	<div class="playlist">	
 		{#each playlist as song, index}
 			<button data-index={index} on:click={playSelectedSong} class="ripple">
-				<img data-index={index} width=100px height=100px src={song.img} alt="" />
+				<img data-index={index} width=95% src={song.img} alt="" />
 				<h3 data-index={index} class="title">{song.title}</h3>	
 			</button>
 		{/each}
@@ -62,7 +62,7 @@
 	.playlist {
 		display: grid;
   		gap: 1rem;
-  		grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
+  		grid-template-columns: repeat(auto-fill, minmax(min(8rem, 100%), 1fr));
 		min-width: 300px;
 		padding: 2em;
 		justify-content: center;
