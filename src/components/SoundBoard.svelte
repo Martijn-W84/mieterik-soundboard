@@ -54,6 +54,10 @@
 </div>
 
 <style>
+	.player {
+		max-height: 100%;
+	}
+
 	.playlist {
 		display: flex;
 		gap: 2em;
